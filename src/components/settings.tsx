@@ -1,5 +1,6 @@
 "use client";
 import { useRef } from "react";
+// @ts-expect-error
 import { experimental_useFormStatus as useFormStatus } from "react-dom";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";

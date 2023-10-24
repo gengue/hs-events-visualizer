@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import Settings from "@/components/settings";
 
-export function Explorer() {
+function Explorer() {
   return (
     <div className="flex flex-col h-full p-6">
       <div className="flex items-center justify-between mb-6">
